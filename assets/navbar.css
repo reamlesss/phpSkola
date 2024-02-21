@@ -1,0 +1,10 @@
+nav {
+  display: flex;
+  width: 100vw;
+  height: 20px;
+  background-color: rgb(6, 168, 255);
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
