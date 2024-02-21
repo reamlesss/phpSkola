@@ -1,5 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(114, 0, 0);
 }
 .form-container {
   display: flex;
@@ -16,6 +17,11 @@ body {
 }
 input {
   font-size: 30px;
+  transition: .2s all;
+
+}
+input:hover{
+  transform: scale(110%);
 }
 label {
   font-size: 30px;
@@ -46,8 +52,6 @@ button {
 #button:hover,
 button:hover {
   transform: scale(110%);
-  
-  
 }
 #login-form {
   display: none;
@@ -95,5 +99,5 @@ form {
   gap: 10px;
 }
 .return-button {
-  padding: 10px 120px !important;
+  /* padding: 10px 120px !important; */
 }
