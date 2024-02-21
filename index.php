@@ -34,7 +34,7 @@
           <input type="submit" value="Login" id="button">
           <button id="button" class="return-button" onclick="goToMenu('login-form')">Menu</button>
         </div>
-      </form>
+      </form>`
     </div>
   </div>
 

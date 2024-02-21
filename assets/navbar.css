@@ -1,10 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 nav {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   width: 100vw;
-  height: 20px;
-  background-color: rgb(6, 168, 255);
+  height: 50px;
+  background-color: black;
+  padding: 0;
+  position: fixed;
+  flex-wrap: wrap;
+  /* gap: 15px; */
 }
 nav a {
   color: white;
   text-decoration: none;
+  letter-spacing: 3px;
+}
+nav :first-child {
+  margin-left: 10px;
+}
+
+nav:last-child {
+  align-self: flex-end;
+  margin-left: 0 auto;
 }

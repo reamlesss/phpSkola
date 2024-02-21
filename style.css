@@ -31,31 +31,29 @@ form {
 }
 #button,
 button {
-  background-color: rgb(6, 168, 255);
+  background-color: rgb(0, 0, 0);
   color: white;
-  padding: 10px 100px;
+  padding: 10px;
+
   border: none;
   border-radius: 10px;
   cursor: pointer;
   transition: 0.5s all;
   font-size: 25px;
+  width: 250px;
+  text-align: center;
 }
 #button:hover,
 button:hover {
-  /* padding: 10px 150px; */
-  font-size: 30px;
-  box-shadow: 0px 0px 10px rgb(0, 200, 255);
+  transform: scale(110%);
+  
+  
 }
 #login-form {
   display: none;
 }
 #register-form {
   display: none;
-}
-
-button {
-  max-width: 500px;
-  font-size: 25px;
 }
 
 .button-container {
@@ -91,7 +89,7 @@ input {
   font-size: 20px;
   border-radius: 10px;
   border: none;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555); */
 }
 form {
   gap: 10px;
@@ -99,4 +97,3 @@ form {
 .return-button {
   padding: 10px 120px !important;
 }
-
